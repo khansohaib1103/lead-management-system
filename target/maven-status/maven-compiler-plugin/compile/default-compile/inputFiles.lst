@@ -1,0 +1,11 @@
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/dto/LeadRequest.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/exception/ResourceNotFoundException.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/controller/LeadController.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/repository/LeadRepository.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/LeadManagementApplication.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/service/impl/LeadServiceImpl.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/exception/ResourceAlreadyExistsException.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/service/LeadService.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/dto/LeadResponse.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/exception/GlobalExceptionHandler.java
+/Users/futurenostics/Downloads/lead-management/backend/src/main/java/com/leadmanagement/entity/Lead.java
