@@ -246,5 +246,3 @@ java -jar target/lead-management-0.0.1-SNAPSHOT.jar
 - Configure backup strategy
 
 ---
-
-For any questions or issues, please contact the development team. 
