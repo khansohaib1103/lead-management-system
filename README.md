@@ -26,7 +26,7 @@ The Lead Management System backend is a Spring Boot application that provides RE
 1. Clone the repository
 2. Navigate to the backend directory
 ```bash
-cd backend
+cd lead-management-system
 ```
 
 3. Configure MySQL database in `application.properties`:
