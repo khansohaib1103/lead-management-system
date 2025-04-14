@@ -224,17 +224,6 @@ CREATE TABLE leads (
    - Logging of errors for debugging
    - Graceful error handling
 
-### Testing
-1. Unit Tests
-   - Controller tests
-   - Service layer tests
-   - Repository tests
-
-2. Integration Tests
-   - API endpoint tests
-   - Database integration tests
-   - Error scenario tests
-
 ### Deployment Guide
 
 #### Local Deployment
