@@ -24,7 +24,7 @@ public class Lead {
 
     @NotBlank(message = "Email is required")
     @Email(message = "Invalid email format")
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false)
     private String email;
 
     @NotBlank(message = "Phone number is required")

@@ -3,7 +3,6 @@ package com.leadmanagement.service.impl;
 import com.leadmanagement.dto.LeadRequest;
 import com.leadmanagement.dto.LeadResponse;
 import com.leadmanagement.entity.Lead;
-import com.leadmanagement.exception.ResourceAlreadyExistsException;
 import com.leadmanagement.exception.ResourceNotFoundException;
 import com.leadmanagement.repository.LeadRepository;
 import com.leadmanagement.service.LeadService;
@@ -13,7 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -24,9 +22,6 @@ public class LeadServiceImpl implements LeadService {
     @Override
     @Transactional
     public LeadResponse createLead(LeadRequest request) {
-        if (leadRepository.existsByEmail(request.getEmail())) {
-            throw new ResourceAlreadyExistsException("Lead with email " + request.getEmail() + " already exists");
-        }
 
         Lead lead = new Lead();
         lead.setFullName(request.getFullName());
@@ -44,7 +39,7 @@ public class LeadServiceImpl implements LeadService {
     public List<LeadResponse> getAllLeads() {
         return leadRepository.findAll().stream()
                 .map(this::mapToResponse)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @Override

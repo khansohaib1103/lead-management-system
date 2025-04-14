@@ -8,5 +8,4 @@ import java.util.UUID;
 
 @Repository
 public interface LeadRepository extends JpaRepository<Lead, UUID> {
-    boolean existsByEmail(String email);
 } 
